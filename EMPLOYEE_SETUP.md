@@ -37,7 +37,7 @@ open ~/Library/Application\ Support/Claude/claude_desktop_config.json
   "mcpServers": {
     "hwp-remote": {
       "command": "npx",
-      "args": ["-y", "hwp-mcp-client", "http://106.241.28.49:8081"]
+      "args": ["-y", "github:swy-datacook/hwp-mcp-client", "http://106.241.28.49:8081"]
     }
   }
 }
@@ -54,7 +54,7 @@ open ~/Library/Application\ Support/Claude/claude_desktop_config.json
     },
     "hwp-remote": {
       "command": "npx",
-      "args": ["-y", "hwp-mcp-client", "http://106.241.28.49:8081"]
+      "args": ["-y", "github:swy-datacook/hwp-mcp-client", "http://106.241.28.49:8081"]
     }
   }
 }

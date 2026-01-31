@@ -21,7 +21,7 @@ This package allows Claude Desktop to connect to a remote HWP (한글) document 
   "mcpServers": {
     "hwp-remote": {
       "command": "npx",
-      "args": ["-y", "hwp-mcp-client", "http://106.241.28.49:8081"]
+      "args": ["-y", "github:swy-datacook/hwp-mcp-client", "http://106.241.28.49:8081"]
     }
   }
 }
@@ -66,7 +66,7 @@ Then use in your Claude config:
 
 ```bash
 # Clone and install
-git clone <repo-url>
+git clone https://github.com/swy-datacook/hwp-mcp-client.git
 cd hwp-mcp-client
 npm install
 
@@ -90,7 +90,7 @@ node index.js http://106.241.28.49:8081
 
 3. Test the bridge manually:
    ```bash
-   npx -y hwp-mcp-client http://106.241.28.49:8081
+   npx -y github:swy-datacook/hwp-mcp-client http://106.241.28.49:8081
    ```
 
 ### Connection timeout
