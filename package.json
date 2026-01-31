@@ -1,0 +1,26 @@
+{
+  "name": "hwp-mcp-client",
+  "version": "1.0.0",
+  "description": "MCP stdio-to-HTTP bridge for remote HWP document generation",
+  "main": "index.js",
+  "bin": {
+    "hwp-mcp-client": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js http://localhost:8081"
+  },
+  "keywords": [
+    "mcp",
+    "hwp",
+    "model-context-protocol",
+    "bridge"
+  ],
+  "author": "DataCook",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
